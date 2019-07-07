@@ -7,6 +7,7 @@ Consider starting the commit message with an applicable emoji:
 
 * 🎨 `:art:`              when improving the format/structure of the code
 * 💚 `:green_heart:`      when fixing the CI build
+* ♻️ `:recycling:`        project Environment
 * ✅ `:white_check_mark:` when adding tests
 * 👕 `:shirt:`            when removing linter warnings
 * ✨ `:sparkles:`         new feature

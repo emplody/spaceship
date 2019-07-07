@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "npm run lint && npm run test-node",
-    "node-test": "npm test/test"
+    "node-test": "npm test/test",
+    "precommit": "lint-staged"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,14 @@
   "bugs": {
     "url": "https://github.com/emplody/spaceship/issues"
   },
-  "homepage": "https://github.com/emplody/spaceship#readme"
+  "homepage": "https://github.com/emplody/spaceship#readme",
+  "devDependencies": {
+    "lint-staged": "^9.1.0"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  }
 }
