@@ -1,0 +1,22 @@
+{
+  "name": "spaceship",
+  "version": "0.0.1",
+  "description": "Our spaceship library with utilities useful for a wide development world like the universe.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint && npm run test-node",
+    "node-test": "npm test/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emplody/spaceship.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emplody/spaceship/issues"
+  },
+  "homepage": "https://github.com/emplody/spaceship#readme"
+}
