@@ -4,9 +4,10 @@
   "description": "Our spaceship library with utilities useful for a wide development world like the universe.",
   "main": "index.js",
   "scripts": {
-    "test": "npm run lint && npm run test-node",
-    "node-test": "npm test/test",
-    "precommit": "lint-staged"
+    "test": "npm run lint",
+    "node-test": "npm test",
+    "precommit": "lint-staged",
+    "lint": "eslint utils/**/*.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   },
   "homepage": "https://github.com/emplody/spaceship#readme",
   "devDependencies": {
+    "eslint": "^6.0.1",
     "lint-staged": "^9.1.0"
   },
   "lint-staged": {
