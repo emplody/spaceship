@@ -1,5 +1,5 @@
 {
-  "name": "@emplody/spaceship.paramToObj",
+  "name": "@emplody/spaceship.paramsToObj",
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
