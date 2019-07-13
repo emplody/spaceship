@@ -1,1 +1,1 @@
-console.log("spaceship util example!");
+console.log('spaceship util example!');
