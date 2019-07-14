@@ -1,1 +1,5 @@
-console.log('spaceship util example!');
+function utilExample() {
+  console.log('spaceship util example!');
+}
+
+export default utilExample;
