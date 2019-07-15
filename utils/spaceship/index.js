@@ -1,4 +1,5 @@
 import paramsToObj from '../spaceship.paramsToObj';
 import utilExample from '../spaceship.utilExample';
+import getPadNumber from '../spaceship.getPadNumber'
 
-export { paramsToObj, utilExample };
+export { paramsToObj, getPadNumber, utilExample };
