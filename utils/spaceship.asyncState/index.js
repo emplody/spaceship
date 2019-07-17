@@ -2,22 +2,22 @@ export const PENDING = 'pending';
 export const SUCCESS = 'success';
 export const FAILURE = 'failure';
 
-export const asyncState = stateName => {
+export default asyncState = stateName => {
   switch (stateName) {
-    case PENDING:
-    case SUCCESS:
-    case FAILURE:
-      return {
-        pending: false,
-        success: false,
-        failure: false,
-        [stateName]: true
-      };
-    default:
-      return {
-        pending: false,
-        success: false,
-        failure: false
-      };
+  case PENDING:
+  case SUCCESS:
+  case FAILURE:
+    return {
+      pending: false,
+      success: false,
+      failure: false,
+      [stateName]: true
+    };
+  default:
+    return {
+      pending: false,
+      success: false,
+      failure: false
+    };
   }
 };
