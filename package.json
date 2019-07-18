@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "test": "npm run lint",
+    "test": "npm run lint && jest",
     "node-test": "npm test",
     "precommit": "lint-staged",
     "lint": "eslint utils/**/*.js"
@@ -28,6 +28,7 @@
     "babel-loader": "^8.0.6",
     "eslint": "^6.0.1",
     "glob": "^7.1.4",
+    "jest": "^24.8.0",
     "lerna": "^3.15.0",
     "lint-staged": "^9.1.0",
     "webpack": "^4.35.3",
