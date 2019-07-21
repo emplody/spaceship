@@ -1,6 +1,6 @@
 import paramsToObj from '../index';
 
-test('delete keyword what is Consonants in Korean and Vowels in Korean.', () => {
+test('make param to obj', () => {
   jsdom.reconfigure({
     url: 'https://www.example.com?test=true'
   });
