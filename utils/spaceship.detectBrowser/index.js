@@ -1,17 +1,17 @@
 function detectBrowser() {
   if (
-    window.navigator.userAgent.indexOf('Opera') ||
-    !!window.navigator.userAgent.indexOf('OPR')
+    window.navigator.userAgent.includes('Opera') ||
+    window.navigator.userAgent.includes('OPR')
   ) {
     return 'Opera';
-  } else if (!!window.navigator.userAgent.indexOf('Chrome')) {
+  } else if (window.navigator.userAgent.includes('Chrome')) {
     return 'Chrome';
-  } else if (!!window.navigator.userAgent.indexOf('Safari')) {
+  } else if (window.navigator.userAgent.includes('Safari')) {
     return 'Safari';
-  } else if (!!window.navigator.userAgent.indexOf('Firefox')) {
+  } else if (window.navigator.userAgent.includes('Firefox')) {
     return 'Firefox';
   } else if (
-    !!window.navigator.userAgent.indexOf('MSIE') ||
+    window.navigator.userAgent.includes('MSIE') ||
     !!document.documentMode == true
   ) {
     //IF IE > 10
