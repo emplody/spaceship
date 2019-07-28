@@ -28,6 +28,8 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, '.'),
+    library: '@emplodies/[name]',
+    libraryTarget: 'umd',
     filename: '[name]/dist/main.js'
   }
 };
