@@ -7,10 +7,16 @@ test('isMobile [MOBILE]', () => {
     'Opera/9.80 (J2ME/MIDP; Opera Mini/5.0.18302/1114; U; en) Presto/2.4.15',
     'Mozilla/5.0 (webOS/1.4.1.1; U; en-US) AppleWebKit/532.2 (KHTML, like Gecko) Version/1.0 Safari/532.2 Pre/1.0'
   ];
+
   const result = mobileAgent.map(userAgent => {
-    navigator.userAgent = userAgent
-    isMobile();
+    Object.defineProperty(window.navigator, 'userAgent', {
+      value: userAgent,
+      configurable: true
+    });
+    
+    return isMobile();
   });
+
   const expected= [
     true,
     true,
