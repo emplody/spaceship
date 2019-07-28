@@ -1,6 +1,5 @@
-node_modules
-webpack.config.js
-package.json
-index.js
+**/node_modules/
+**/package.json/
+**/index.js/
 
 !**/dist

@@ -2,7 +2,7 @@
   "name": "@emplodies/spaceship.detect-browser",
   "version": "0.0.2",
   "description": "",
-  "main": "index.js",
+  "main": "dist/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
