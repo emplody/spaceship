@@ -1,8 +1,15 @@
 module.exports = function(api) {
   api.cache(true);
 
-  const presets = ['@babel/preset-env'];
-  const plugins = ['add-module-exports', { addDefaultProperty: true }];
+  const presets = [['@babel/env', { modules: 'commonjs' }]];
+  const plugins = [
+    [
+      'add-module-exports',
+      {
+        addDefaultProperty: true
+      }
+    ]
+  ];
 
   return {
     presets,
