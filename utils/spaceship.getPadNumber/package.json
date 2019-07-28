@@ -1,11 +1,15 @@
 {
-  "name": "@emplody/spaceship.getPadNumber",
-  "version": "0.0.0",
+  "name": "@emplodies/spaceship.get-pad-number",
+  "version": "0.0.7",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "d0e954e40b8b11275806373d92537e51a4879514"
 }

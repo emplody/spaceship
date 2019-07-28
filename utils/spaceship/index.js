@@ -1,5 +1,5 @@
-import detectBrowser from './spaceship.detectBrowser';
-import normalizeKeyword from './normalizeKeyword';
+import detectBrowser from '../spaceship.detectBrowser';
+import normalizeKeyword from '../spaceship.normalizeKeyword';
 import paramsToObj from '../spaceship.paramsToObj';
 import objToParams from '../spaceship.objToParams';
 import scriptLoader from '../spaceship.scriptLoader';
@@ -9,4 +9,15 @@ import getPadNumber from '../spaceship.getPadNumber';
 import toTimeString from '../spaceship.toTimeString';
 import uniqueKey from '../spaceship.uniqueKey';
 
-export { detectBrowser, getPadNumber, toTimeString, uniqueKey, normalizeKeyword, paramsToObj, objToParams, scriptLoader, asyncState, utilExample };
+export {
+  detectBrowser,
+  normalizeKeyword,
+  paramsToObj,
+  objToParams,
+  scriptLoader,
+  asyncState,
+  utilExample,
+  getPadNumber,
+  toTimeString,
+  uniqueKey
+};
