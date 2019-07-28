@@ -1,5 +1,5 @@
 {
-  "name": "@emplody/spaceship.objToParams",
+  "name": "@emplodies/spaceship.objToParams",
   "version": "0.0.2",
   "description": "",
   "main": "index.js",
@@ -11,5 +11,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "8c9da2471426ff10c48cdc54828f0fe6b56f0494"
+  "gitHead": "a6c2e3336217043a7656d8e801d228172015ad89"
 }
