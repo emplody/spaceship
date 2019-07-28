@@ -1,5 +1,5 @@
 {
-  "name": "@emplody/spaceship.uniqueKey",
+  "name": "@emplodies/spaceship.uniqueKey",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -7,5 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "gitHead": "b9328758ed9f70b65a3b25609a8035acc036e7e3"
 }
