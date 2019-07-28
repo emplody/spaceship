@@ -1,5 +1,5 @@
 {
-  "name": "@emplodies/spaceship.normalizeKeyword",
+  "name": "@emplodies/spaceship.normalize-keyword",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -11,5 +11,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "a6c2e3336217043a7656d8e801d228172015ad89"
+  "gitHead": "a1fc5528e1803304f24be12aeab20115e6470cb3"
 }
