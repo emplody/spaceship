@@ -1,9 +1,14 @@
-export default scriptLoader = src => {
+function scriptLoader(src) {
   const el = document.createElement('script');
+  el.type = 'text/javascript';
   el.src = src;
   document.body.appendChild(el);
+
   return new Promise((resolve, reject) => {
-    el.onload = event => resolve(event);
-    el.onerror = () => reject(new Error(`Not loaded script '${src}'`));
-  })
-};
+    setTimeout(() => resolve('done'), 3000);
+    el.onload = resolve;
+    el.onerror = reject;
+  });
+}
+
+export default scriptLoader;
