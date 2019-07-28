@@ -1,5 +1,5 @@
 {
-  "name": "@emplodies/spaceship.uniqueKey",
+  "name": "@emplodies/spaceship.unique-key",
   "version": "0.0.2",
   "description": "",
   "main": "index.js",
@@ -8,5 +8,8 @@
   },
   "author": "",
   "license": "ISC",
-  "gitHead": "b9328758ed9f70b65a3b25609a8035acc036e7e3"
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "d0e954e40b8b11275806373d92537e51a4879514"
 }
