@@ -2,7 +2,10 @@ module.exports = function(api) {
   api.cache(true);
 
   const presets = ['@babel/preset-env'];
+  const plugins = ['add-module-exports'];
+
   return {
-    presets
+    presets,
+    plugins
   };
 };
