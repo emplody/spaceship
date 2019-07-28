@@ -13,16 +13,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/emplodies/spaceship.git"
+    "url": "git+https://github.com/emplody/spaceship.git"
   },
   "keywords": [
     "javascript"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/emplodies/spaceship/issues"
+    "url": "https://github.com/emplody/spaceship/issues"
   },
-  "homepage": "https://github.com/emplodies/spaceship#readme",
+  "homepage": "https://github.com/emplody/spaceship#readme",
   "devDependencies": {
     "@babel/core": "^7.5.4",
     "@babel/preset-env": "^7.5.4",
