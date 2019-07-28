@@ -1,6 +1,6 @@
 {
   "name": "@emplodies/spaceship.obj-to-params",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "",
   "main": "dist/main.js",
   "scripts": {
