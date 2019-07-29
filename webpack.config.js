@@ -12,6 +12,7 @@ const entryObject = entryArray.reduce((acc, item) => {
 
 module.exports = {
   entry: entryObject,
+  target: 'node',
   module: {
     rules: [
       {
@@ -28,6 +29,9 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, '.'),
+    library: '@emplodies/[name]',
+    libraryTarget: 'umd',
+    umdNamedDefine: true,
     filename: '[name]/dist/main.js'
   }
 };

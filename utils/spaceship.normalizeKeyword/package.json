@@ -1,11 +1,15 @@
 {
-  "name": "@emplody/spaceship.normalizeKeyword",
-  "version": "0.0.0",
+  "name": "@emplodies/spaceship.normalize-keyword",
+  "version": "0.0.20",
   "description": "",
-  "main": "index.js",
+  "main": "dist/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "1896c09853477c38a3d0140f4fba7a9ba9ef7995"
 }
