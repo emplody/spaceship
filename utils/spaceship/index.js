@@ -8,5 +8,6 @@ import utilExample from '../spaceship.utilExample';
 import getPadNumber from '../spaceship.getPadNumber';
 import toTimeString from '../spaceship.toTimeString';
 import uniqueKey from '../spaceship.uniqueKey';
+import isMobile from '../spaceship.isMobile';
 
-export { detectBrowser, getPadNumber, toTimeString, uniqueKey, normalizeKeyword, paramsToObj, objToParams, scriptLoader, asyncState, utilExample };
+export { detectBrowser, isMobile, getPadNumber, toTimeString, uniqueKey, normalizeKeyword, paramsToObj, objToParams, scriptLoader, asyncState, utilExample };
