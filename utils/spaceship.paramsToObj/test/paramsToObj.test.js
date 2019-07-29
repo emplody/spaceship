@@ -6,3 +6,10 @@ test('make param to obj', () => {
   });
   expect(paramsToObj()).toEqual({ test: 'true' });
 });
+
+test('make param to obj - empty string', () => {
+  jsdom.reconfigure({
+    url: 'https://www.example.com'
+  });
+  expect(paramsToObj()).toEqual({});
+});

@@ -7,6 +7,7 @@ import asyncState from '../spaceship.asyncState';
 import getPadNumber from '../spaceship.getPadNumber';
 import toTimeString from '../spaceship.toTimeString';
 import uniqueKey from '../spaceship.uniqueKey';
+import isMobile from '../spaceship.isMobile';
 
 export {
   detectBrowser,
@@ -17,5 +18,6 @@ export {
   asyncState,
   getPadNumber,
   toTimeString,
-  uniqueKey
+  uniqueKey,
+  isMobile,
 };
