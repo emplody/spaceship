@@ -8,7 +8,7 @@
     "test": "npm run lint && jest",
     "node-test": "npm test",
     "lint": "eslint utils/**/*.js",
-    "publish": "lerna publish --force-publish",
+    "publish": "lerna publish",
     "prepublish": "npm run build"
   },
   "repository": {
