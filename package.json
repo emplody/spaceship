@@ -51,5 +51,8 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
+  },
+  "dependencies": {
+    "mock-browser": "^0.92.14"
   }
 }
