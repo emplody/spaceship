@@ -1,6 +1,6 @@
 {
   "name": "@emplodies/spaceship.async-state",
-  "version": "0.0.15",
+  "version": "0.0.20",
   "description": "",
   "main": "dist/main.js",
   "scripts": {
@@ -11,5 +11,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "d0e954e40b8b11275806373d92537e51a4879514"
+  "gitHead": "1896c09853477c38a3d0140f4fba7a9ba9ef7995"
 }
