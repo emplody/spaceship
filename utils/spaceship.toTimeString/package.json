@@ -1,6 +1,6 @@
 {
   "name": "@emplodies/spaceship.to-time-string",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,5 +11,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "b1c7604de0daf9710cdbd1c0f77eb9c69d369b6f"
+  "gitHead": "1896c09853477c38a3d0140f4fba7a9ba9ef7995"
 }
