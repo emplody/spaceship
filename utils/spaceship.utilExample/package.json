@@ -1,6 +1,6 @@
 {
   "name": "@emplodies/spaceship.util-example",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "description": "",
   "main": "dist/main.js",
   "scripts": {
@@ -11,5 +11,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "d0e954e40b8b11275806373d92537e51a4879514"
+  "gitHead": "b1c7604de0daf9710cdbd1c0f77eb9c69d369b6f"
 }
