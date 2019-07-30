@@ -8,8 +8,22 @@ Collecte useful utilities for developing web services.
 
 ## 🌟 Getting Started
 
+### Whole util,
+Using npm:
 ```bash
-// TBD
+$ npm i @emplodies/spaceship
+```
+
+### Only what you want 
+First, Check Util List and pick what you want.
+> Visit [our website](https://spaceship-js.netlify.com/) .
+
+```bash
+// ex 1. If you want detect-browser, 
+$ npm i @emplodies/spaceship.detect-browser
+
+// ex 2. If you want detect-browser, 
+$ npm i @emplodies/spaceship.normalize-keyword
 ```
 
 ## 👩‍🚀👨‍🚀 Util List
