@@ -26,14 +26,12 @@ Consider starting the commit message with an applicable emoji:
 * 📷 `:camera:`           snapshot update
 
 ## Feature Requests
-
-
-## Pull Requests
-
+[Add issue](https://github.com/emplody/spaceship/issues/new?template=feature.md) first. 
+And make Pull Request. 👍
 
 ## Coding Guidelines
-
 Guidelines are enforced using [ESLint](https://www.npmjs.com/package/eslint):
+
 ```bash
-$ npm run style
+$ npm run test
 ```
