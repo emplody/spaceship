@@ -1,5 +1,5 @@
 <p align="center">
-<h3 align="center">spacship</h3>
+<h3 align="center">spaceship</h3>
 
 <p align="center">
 🚀 Utilities for a wide development world like the universe.
