@@ -4,7 +4,7 @@
 <p align="center">
 🚀 Utilities for a wide development world like the universe.
 <br>
-<a href="[https://pirix-gh.github.io/ts-toolbelt/](https://pirix-gh.github.io/ts-toolbelt/)" target="_blank"><strong>Explore the docs »</strong></a>
+<a href="https://spaceship-js.netlify.com/#/" target="_blank"><strong>Explore the docs »</strong></a>
 <br>
 <br>
 ·
