@@ -33,7 +33,7 @@
 - [🌝 About](#-about)
 - [🕊 Features](#-features)
 - [🏁 Getting started](#-getting-started)
-- [📖 Documentation](#-documentation-)
+- [📖 Documentation](#-documentation)
 - [🎁 Contributing](#-contributing)
 - [💉 Running tests](#-running-tests)
 
